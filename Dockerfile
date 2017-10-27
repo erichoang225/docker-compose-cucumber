@@ -1,4 +1,4 @@
-FROM ruby:2.2.0
+FROM ruby:2.2.2
 MAINTAINER Shashikant jagtap <shashikant.jagtap@aol.co.uk>
 
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev openjdk-7-jre-headless lib32z1 lib32ncurses5 g++-multilib
